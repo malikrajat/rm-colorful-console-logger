@@ -1,0 +1,43 @@
+{
+  "name": "colorful-console-logger",
+  "description": "A lightweight library for colorful console logging with filename and line number.",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsup && pnpm run postbuild",
+    "postbuild": "cpy package.json README.md LICENSE dist/"
+  },
+  "keywords": [
+    "console",
+    "logger",
+    "color",
+    "filename",
+    "line-number"
+  ],
+  "author": {
+    "name": "Rajat Malik",
+    "email": "mr.rajatmalik@gmail.com",
+    "url": "https://www.linkedin.com/in/errajatmalik/"
+  },
+  "homepage": "https://github.com/malikrajat/rm-colorful-console-logger#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malikrajat/rm-colorful-console-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/malikrajat/rm-colorful-console-logger/issues"
+  },
+  "sideEffects": false,
+  "license": "MIT",
+  "devDependencies": {
+    "cpy-cli": "^5.0.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.3"
+  },
+  "files": [
+  "dist/**/*"
+]
+}
