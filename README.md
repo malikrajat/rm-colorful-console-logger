@@ -23,13 +23,13 @@ A lightweight and developer-friendly logging library that allows you to print co
 Install the package via npm:
 
 ```bash
-  npm install rm-colorful-console-logger
+  npm install @rm/rm-colorful-console-logger
 ```
 
 Or with Yarn:
 
 ```bash
-  yarn add rm-colorful-console-logger
+  yarn add @rm/rm-colorful-console-logger
 ```
 
 ---
@@ -41,7 +41,7 @@ Or with Yarn:
 Import and use the library in your project:
 
 ```javascript
-import { Log } from 'rm-colorful-console-logger';
+import { Log } from '@rm/rm-colorful-console-logger';
 
 Log.success('Hello, World!', 'green'); // Logs "Hello, World!" in green
 Log.error('This is an error message', 'red'); // Logs "This is an error message" in red
