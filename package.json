@@ -9,9 +9,6 @@
   "scripts": {
     "build": "tsup"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "keywords": [
     "console",
     "logger",
