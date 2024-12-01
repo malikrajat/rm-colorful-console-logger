@@ -7,8 +7,7 @@
   "module": "dist/index.js",
   "type": "module",
   "scripts": {
-    "build": "tsup && pnpm run postbuild",
-    "postbuild": "cpy package.json README.md LICENSE dist/"
+    "build": "tsup"
   },
   "keywords": [
     "console",
@@ -38,6 +37,6 @@
     "typescript": "^5.6.3"
   },
   "files": [
-  "dist/**/*"
-]
+    "dist/**/*"
+  ]
 }
