@@ -1,5 +1,5 @@
 {
-  "name": "@rm/rm-colorful-console-logger",
+  "name": "rm-colorful-console-logger",
   "description": "A lightweight library for colorful console logging with filename and line number.",
   "version": "1.0.0",
   "main": "dist/index.js",
