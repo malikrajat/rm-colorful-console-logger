@@ -6,6 +6,8 @@
 
 A lightweight and developer-friendly logging library that allows you to print colorful messages to the console, complete with the filename and line number of the caller. This library is compatible with **Angular**, **React**, and plain **JavaScript** projects.
 
+If you like this plugin, please give it a star ⭐.
+
 ---
 
 ## 🚀 Features
