@@ -1,26 +1,124 @@
 {
   "name": "rm-colorful-console-logger",
-  "description": "A lightweight library for colorful console logging with filename and line number.",
+  "description": "A lightweight, zero-dependency library for colorful console logging with customizable colors and bold styling. Provides a simple Log class API (success, error, info) for styled terminal output in Node.js, Deno, Bun, browsers, React, Vue, Angular, Svelte, Next.js, Electron, and any JavaScript/TypeScript project.",
   "version": "2.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/index.js",
   "type": "module",
   "scripts": {
-    "build": "tsup"
+    "build": "tsup  && node copy-extra-files.js",
+    "dev": "tsup --watch",
+    "prepare": "npm run build"
   },
   "keywords": [
     "console",
     "logger",
+    "log",
     "color",
-    "filename",
-    "line-number"
+    "colour",
+    "colorize",
+    "colorful",
+    "terminal",
+    "cli",
+    "debug",
+    "debugging",
+    "logging",
+    "console.log",
+    "output",
+    "terminal-log",
+    "pretty-print",
+    "stylish",
+    "styled-logs",
+    "console-colors",
+    "node",
+    "javascript",
+    "typescript",
+    "devtools",
+    "utilities",
+    "ansi",
+    "terminal-colors",
+    "logging-library",
+    "console-logger",
+    "zero-dependency",
+    "no-dependencies",
+    "lightweight",
+    "browser",
+    "nodejs",
+    "typescript-library",
+    "colored-console",
+    "terminal-output",
+    "log-utility",
+    "stdout",
+    "ssr",
+    "tree-shakable",
+    "framework-agnostic",
+    "isomorphic",
+    "angular",
+    "react",
+    "vue",
+    "esm",
+    "universal",
+    "typings",
+    "javascript-library",
+    "node-library",
+    "frontend",
+    "backend",
+    "fullstack",
+    "nextjs",
+    "nuxtjs",
+    "svelte",
+    "sveltekit",
+    "remix",
+    "vite",
+    "webpack",
+    "rollup",
+    "jest",
+    "mocha",
+    "cypress",
+    "playwright",
+    "storybook",
+    "electron",
+    "react-native",
+    "expo",
+    "deno",
+    "bun",
+    "cloudflare-workers",
+    "service-worker",
+    "pwa",
+    "micro-frontend",
+    "monorepo",
+    "nx",
+    "turborepo",
+    "cli-tool",
+    "dev-utility",
+    "debug-tool",
+    "console-tool",
+    "log-formatter",
+    "console-utility",
+    "dev-experience",
+    "developer-experience",
+    "dx",
+    "productivity",
+    "debugging-tool",
+    "developer-tools",
+    "console-styling",
+    "color-output",
+    "log-output",
+    "universal-logger",
+    "cross-platform",
+    "cross-browser",
+    "compatible",
+    "universal-javascript",
+    "isomorphic-library",
+    "works-everywhere",
+    "frontend-framework",
+    "backend-framework",
+    "node-framework",
+    "js-framework",
+    "ts-framework",
+    "framework-compatible"
   ],
-  "author": {
-    "name": "Rajat Malik",
-    "email": "mr.rajatmalik@gmail.com",
-    "url": "https://www.linkedin.com/in/errajatmalik/"
-  },
   "homepage": "https://github.com/malikrajat/rm-colorful-console-logger#readme",
   "repository": {
     "type": "git",
@@ -29,13 +127,56 @@
   "bugs": {
     "url": "https://github.com/malikrajat/rm-colorful-console-logger/issues"
   },
-  "sideEffects": false,
-  "license": "MIT",
   "devDependencies": {
-    "tsup": "^8.3.0",
-    "typescript": "^5.6.3"
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3"
+  },
+  "author": {
+    "name": "Rajat Malik",
+    "email": "mr.rajatmalik@gmail.com",
+    "url": "https://www.rajatmalik.dev/"
+  },
+  "contributors": [
+    {
+      "name": "Rajat Malik",
+      "email": "mr.rajatmalik@gmail.com"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Rajat Malik",
+      "email": "mr.rajatmalik@gmail.com"
+    }
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/malikrajat"
   },
   "files": [
-    "dist/**/*"
-  ]
+    "dist/**/*",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "packageManager": "pnpm@10.11.1",
+  "license": "MIT",
+  "sideEffects": false,
+  "private": false,
+  "preferGlobal": false,
+  "readme": "README.md"
 }
