@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2.0.0] - 2026-06-25
+## [2.0.0] - 2026-07-28
 
 ### Added
 - `Log.success(msg, clr)` - Log success messages with customizable color (default: green)
