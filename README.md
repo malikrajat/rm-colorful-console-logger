@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Universal-success" alt="Universal JS">
   <img src="https://img.shields.io/npm/dw/colorful-console-logger" alt="weekly downloads">
   <img src="https://img.shields.io/npm/dt/colorful-console-logger" alt="total downloads">
-  <img src="https://img.shields.io/github/stars/malikrajat/colorful-console-logger" alt="GitHub stars">
+  <img src="https://img.shields.io/github/stars/malikrajat/rm-colorful-console-logger" alt="GitHub stars">
 </p>
 
 **Universal colorful console logging for every JavaScript environment — Node.js, Deno, Bun, browsers, React, Vue, Angular, Svelte, Next.js, Electron, and more.**
@@ -22,7 +22,7 @@
 
 <div align="center">
 
-  <img src="https://github.com/malikrajat/colorful-console-logger/blob/main/assets/demo.jpg" alt="colorful-console-logger Demo" width="800"/>
+  <img src="https://github.com/malikrajat/rm-colorful-console-logger/blob/main/assets/demo.jpg" alt="rm-colorful-console-logger Demo" width="800"/>
 
 </div>
 
@@ -73,7 +73,7 @@ If you like this plugin, please give it a star.
     </td>
     <td align="center" width="50%">
       <br/>
-      <a href="https://github.com/malikrajat/colorful-console-logger" target="_blank">
+      <a href="https://github.com/malikrajat/rm-colorful-console-logger" target="_blank">
         <img src="https://img.shields.io/badge/GitHub_Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository"/>
       </a>
       <br/>
