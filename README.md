@@ -4,25 +4,18 @@
   <img src="https://img.shields.io/npm/v/colorful-console-logger.svg" alt="npm version">
   <img src="https://img.shields.io/badge/Stability-production--ready-success" alt="Production ready">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license">
-  <img src="https://img.shields.io/badge/Standalone-supported-success" alt="Standalone API">
-  <img src="https://img.shields.io/badge/SSR-compatible-success" alt="SSR compatible">
+  <img src="https://img.shields.io/badge/Zero%20Dependencies-success" alt="Zero dependencies">
   <img src="https://img.shields.io/badge/TypeScript-strict-blue" alt="Strict TS">
-  <img src="https://img.shields.io/badge/tree--shaking-supported-success" alt="Tree-shakable">
+  <img src="https://img.shields.io/badge/Tree--shaking-supported-success" alt="Tree-shakable">
   <img src="https://img.shields.io/badge/Side%20Effects-none-blue" alt="No side effects">
-  <img src="https://img.shields.io/badge/Linting-enabled-success" alt="Linting">
-  <img src="https://img.shields.io/badge/Tests-covered-blue" alt="Tests">
-  <img src="https://img.shields.io/badgeCoverage-90%25-success" alt="Coverage">
-  <img src="https://img.shields.io/badge/A11y-WCAG%202.1-blue" alt="Accessibility compliant">
-  <img src="https://img.shields.io/badge/Maintained-yes-success" alt="Maintained">
-  <img src="https://img.shields.io/bundlephobia/minzip/colorful-console-logger" alt="minzipped size">
-  <img src="https://img.shields.io/badge/Dependencies-none-success" alt="No dependencies">
+  <img src="https://img.shields.io/badge/Framework%20Agnostic-success" alt="Framework agnostic">
+  <img src="https://img.shields.io/badge/Universal-success" alt="Universal JS">
   <img src="https://img.shields.io/npm/dw/colorful-console-logger" alt="weekly downloads">
-  <img src="https://img.shields.io/badge/SemVer-compliant-blue" alt="SemVer">
   <img src="https://img.shields.io/npm/dt/colorful-console-logger" alt="total downloads">
-  <img src="https://img.shields.io/npm/last-update/colorful-console-logger" alt="Last update">
-  <img src="https://img.shields.io/github/issues/malikrajat/colorful-console-logger" alt="Open issues">
   <img src="https://img.shields.io/github/stars/malikrajat/colorful-console-logger" alt="GitHub stars">
 </p>
+
+**Universal colorful console logging for every JavaScript environment — Node.js, Deno, Bun, browsers, React, Vue, Angular, Svelte, Next.js, Electron, and more.**
 
 
 ## See It In Action
@@ -37,7 +30,7 @@
 
 <p align="left">
 
-A lightweight and developer-friendly logging library that allows you to print colorful messages to the console, complete with the filename and line number of the caller. This library is compatible with **Angular**, **React**, and plain **JavaScript** projects.
+A lightweight and developer-friendly logging library that allows you to print colorful messages to the console, complete with the filename and line number of the caller. This library is compatible with **Angular**, **React**, **Vue.js**, **Svelte**, **Next.js**, **Nuxt.js**, **Node.js**, **Deno**, **Bun**, **Electron**, and plain **JavaScript/TypeScript** projects.
 
 If you like this plugin, please give it a star.
 
@@ -98,7 +91,9 @@ If you like this plugin, please give it a star.
 
 - Log messages in vibrant colors.
 - Automatically fetches the file and line number of the caller.
-- Compatible with modern frontend frameworks like **Angular**, **React**, **Vue.js** and vanilla JavaScript.
+- Compatible with every major JavaScript environment and framework: **Angular**, **React**, **Vue.js**, **Svelte**, **Next.js**, **Nuxt.js**, **Node.js**, **Deno**, **Bun**, **Electron**, **React Native**, **Expo**, and vanilla JavaScript/TypeScript.
+- Works in browser, server (SSR/SSG), CLI tools, desktop apps, mobile apps, edge runtimes, and test environments.
+- Zero dependencies. Framework-agnostic. Tree-shakable. ESM-first.
 - Follows best practices for security and performance.
 - Lightweight and easy to integrate.
 
@@ -193,9 +188,32 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## Browser Compatibility
+## Compatibility
 
-### Supported Browsers
+### Supported Frameworks & Runtimes
+
+| Framework / Runtime | Support Level | Notes |
+|---------------------|---------------|-------|
+| Angular | Full Support | Works in components, services, and standalone apps |
+| React | Full Support | Works in components, hooks, and SSR/SSG |
+| Vue.js | Full Support | Works in components, composables, and Nuxt |
+| Svelte / SvelteKit | Full Support | Works in components and server modules |
+| Next.js | Full Support | Works in client, server, and edge runtimes |
+| Nuxt.js | Full Support | Works in nitro server and client |
+| Remix | Full Support | Works in loaders, actions, and components |
+| Astro | Full Support | Works in islands and server |
+| Node.js 18+ | Full Support | CLI tools, scripts, backends |
+| Deno | Full Support | Native ESM support |
+| Bun | Full Support | Native ESM support |
+| Electron | Full Support | Main and renderer processes |
+| React Native / Expo | Full Support | Works in app logic |
+| Cloudflare Workers | Full Support | Edge runtime compatible |
+| Vite / Webpack / Rollup | Full Support | Works in bundled apps |
+| Jest / Mocha / Cypress / Playwright | Full Support | Test environments |
+| Storybook | Full Support | Works in stories and addons |
+| Service Workers / PWA | Full Support | Works in offline contexts |
+
+### Browser Support
 
 | Browser | Version | Support Level | Notes |
 |---------|---------|---------------|-------|
@@ -245,9 +263,9 @@ Unlike plain `console.log()`, this library provides:
 - Consistent formatting across your entire application
 - Better readability during debugging sessions
 
-### Which frameworks are supported?
+### Which frameworks and environments are supported?
 
-The library works with **Angular**, **React**, **Vue.js**, and plain **JavaScript** projects. It has zero dependencies and is framework-agnostic.
+This library works with **Angular**, **React**, **Vue.js**, **Svelte**, **SvelteKit**, **Next.js**, **Nuxt.js**, **Remix**, **Astro**, **Node.js**, **Deno**, **Bun**, **Electron**, **React Native**, **Expo**, **Cloudflare Workers**, and plain **JavaScript/TypeScript**. It has zero dependencies and is fully framework-agnostic, so it works in any JS runtime or framework.
 
 ### Is this compatible with server-side rendering (SSR)?
 
